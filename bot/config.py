@@ -1,9 +1,9 @@
 from os import environ as env
 
 class Telegram:
-    API_ID = int(env.get("TELEGRAM_API_ID", "22419004"))
-    API_HASH = env.get("TELEGRAM_API_HASH", "34982b52c4a83c2af3ce8f4fe12fe4e1")
-    OWNER_ID = int(env.get("OWNER_ID", "6742022802"))
+    API_ID = int(env.get("TELEGRAM_API_ID", "29382018"))
+    API_HASH = env.get("TELEGRAM_API_HASH", "4734a726c04620c61ec0a28a1ae0d57f")
+    OWNER_ID = int(env.get("OWNER_ID", "7442532306"))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
     BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "F2l_RoboT")
     BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "7592800776:AAHj7rsVK9UK4bOtgbWMaI1Tfu92jyD3CwI")
