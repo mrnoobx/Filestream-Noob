@@ -6,14 +6,14 @@ class Telegram:
     OWNER_ID = int(env.get("OWNER_ID", "7442532306"))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
     BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "F2l_RoboT")
-    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "7592800776:AAHj7rsVK9UK4bOtgbWMaI1Tfu92jyD3CwI")
+    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "7592800776:AAFVhfpJLdf4Y2VZa2-VQPGIZfvtDR5gxng")
     CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", "-1002436397777"))
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 4))
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "http://157.20.215.48:9038")
+    BASE_URL = env.get("BASE_URL", "http://157.20.215.48:9039")
     BIND_ADDRESS = env.get("BIND_ADDRESS", "0.0.0.0")
-    PORT = int(env.get("PORT", 9038))
+    PORT = int(env.get("PORT", 9039))
 
 # LOGGING CONFIGURATION
 LOGGER_CONFIG_JSON = {
